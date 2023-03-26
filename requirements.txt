@@ -1,0 +1,6 @@
+cuda=11.4
+cudnn=8.2.4
+python=3.10.2
+pytorch=1.12.1
+h5py
+scipy
