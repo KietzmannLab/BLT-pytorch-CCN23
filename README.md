@@ -7,6 +7,7 @@
 - You can call "train_net.py" with args that can be configured.
 - Make sure to define 'dataset_path' in train_net.py
 - You can write new models and place them in "models/". Make sure to update loading "get_network_model" function in helper_funcs, and other dependencies.
+- The miniecoset dataset can be found at - https://osf.io/msna2/
 
 ### Current performance:
 - On one A100, we can train a BLT RNN with a 10 timestep unroll and a batch size of 1024. It takes ~3hrs for 60 epochs. The final timestep accuracy is 50% on the testplus set of miniecoset-100.
