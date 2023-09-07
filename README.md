@@ -1,4 +1,4 @@
-# BLT model for pytorch
+# BLT 🍔 model for pytorch
 
 ### Based on pytorch 1.12.1 and python 3.10
 
