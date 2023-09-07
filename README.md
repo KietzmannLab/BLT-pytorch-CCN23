@@ -13,6 +13,7 @@
 - On one A100, we can train a BLT RNN with a 10 timestep unroll and a batch size of 1024. It takes ~3hrs for 60 epochs. The final timestep accuracy is 50% on the testplus set of miniecoset-100.
 
 ### Evaluation:
+- Trained and untrained model weights can be found at - https://doi.org/10.17605/OSF.IO/PW238
 - Evaluation files are available in "BLT_analyse/" 
 - Run "extract_actvs.py" to extract the activations for the 'testplus' split of MiniEcoset and readout weights required for further analysis
 - Make sure to define 'dataset_path' in extract_actvs.py
